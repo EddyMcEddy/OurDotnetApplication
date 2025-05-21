@@ -6,7 +6,13 @@ namespace OurDotnetApplication
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Welcome to C#");
+
+
+      Console.WriteLine("What is your name?: ");
+      var name = Console.ReadLine();
+
+      Console.WriteLine($"Hi, {name}");
+
     }
   }
 }
