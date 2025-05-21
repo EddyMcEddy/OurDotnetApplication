@@ -12,7 +12,7 @@ namespace OurDotnetApplication
       var name = Console.ReadLine();
 
       Console.WriteLine($"Hi, {name}");
-      Console.WriteLine("");
+      Console.WriteLine("Eddy ");
 
     }
   }
